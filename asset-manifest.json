@@ -1,0 +1,14 @@
+{
+  "main.css": "/nyt-app/static/css/main.4cff7dac.chunk.css",
+  "main.js": "/nyt-app/static/js/main.e04f0dfb.chunk.js",
+  "main.js.map": "/nyt-app/static/js/main.e04f0dfb.chunk.js.map",
+  "static/js/1.a700ff87.chunk.js": "/nyt-app/static/js/1.a700ff87.chunk.js",
+  "static/js/1.a700ff87.chunk.js.map": "/nyt-app/static/js/1.a700ff87.chunk.js.map",
+  "runtime~main.js": "/nyt-app/static/js/runtime~main.1150f26b.js",
+  "runtime~main.js.map": "/nyt-app/static/js/runtime~main.1150f26b.js.map",
+  "static/media/logo.svg": "/nyt-app/static/media/logo.5d5d9eef.svg",
+  "static/css/main.4cff7dac.chunk.css.map": "/nyt-app/static/css/main.4cff7dac.chunk.css.map",
+  "index.html": "/nyt-app/index.html",
+  "precache-manifest.8f51a8e6ad65dec59ecfbefd4487e8d9.js": "/nyt-app/precache-manifest.8f51a8e6ad65dec59ecfbefd4487e8d9.js",
+  "service-worker.js": "/nyt-app/service-worker.js"
+}
