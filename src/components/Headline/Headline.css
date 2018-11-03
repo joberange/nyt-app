@@ -1,0 +1,13 @@
+.headline {
+    border: 2px dotted #444;
+    margin-bottom: 5px;
+    padding: 5px;
+    position: relative;
+    background: linear-gradient(to bottom, #eee, rgb(173, 190, 189));
+    text-align: center;
+  }
+  
+  .headline button {
+    float: right;
+    background: rgb(159, 233, 165);
+  }

@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom"
+import "./App.css";
+import Wrapper from "./components/Wrapper/Wrapper";
+import NavTabs from "./components/NavTabs/NavTabs";
+import Search from "./components/pages/Search/Search";
+import Saved from "./components/pages/Saved/Saved";
+import Header from "./components/Header";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Wrapper>
+        <Header />
+        <Router>
+          <div>
+            <NavTabs />
+            <Route exact path='/' render={() => <Redirect to="/search" />} />
+            <Route exact path="/search" component={Search} />
+            <Route exact path="/saved" component={Saved} />
+          </div>
+        </Router>
+      </Wrapper>
     );
   }
 }
